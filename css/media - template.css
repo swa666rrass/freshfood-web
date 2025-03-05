@@ -1,19 +1,19 @@
 /* Laptopy a běžné desktopy */
-@media (max-width: 1025px) {
+@media (min-width: 992px) and (max-width: 1025px) {
     body {
         background: white;
     }
 }
 
 /* Tablety a menší notebooky */
-@media (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
     body {
         background: green;
     }
 }
 
 /* Telefony na šířku, menší tablety */
-@media (max-width: 768px) {
+@media (min-width: 578px) and (max-width: 768px) {
     body {
         background: yellow;
     }
@@ -23,6 +23,106 @@
 @media (max-width: 576px) {
     body {
         background: red;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #logo {
+        display: flex;
+        transform: scale(200%);
+        margin-top: 100px;
+    }
+
+    nav {
+        width: 50%;
+        margin-left: 25px;
+
+        ul li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 3px dashed black;
+
+
+            a {
+                font-size: 2rem;
+                padding: 50px;
+
+            }
+        }
+    }
+
+    nav #home a {
+        background-image: none;
+        margin-top: 20px;
+    }
+
+    nav #recepty a {
+        background-image: none;
+    }
+
+    nav #blogg a {
+        background-image: none;
+    }
+
+    nav #eshop a {
+        background-image: none;
+    }
+
+    nav #kontakty a {
+        background-image: none;
+    }
+
+    #bocni {
+        display: none;
+
+    }
+
+    #uvod {
+        width: 80%;
+    }
+
+    #slide {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        transform: scale(120%);
+
+        h1 {
+            font-size: 255%;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 100px;
+        }
+    }
+
+    #newsletter {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin-left: 90px;
+    }
+
+    #submit {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #blog {
+        display: flex;
+        flex-direction: column;
+
     }
 }
 
