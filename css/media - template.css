@@ -15,8 +15,167 @@
 /* Telefony na šířku, menší tablety */
 @media (min-width: 578px) and (max-width: 768px) {
     body {
-        background: yellow;
+        background: white;
+        height: auto;
     }
+
+    nav #home a {
+        background-image: none;
+        margin-top: 20px;
+    }
+
+    nav #recepty a {
+        background-image: none;
+    }
+
+    nav #blogg a {
+        background-image: none;
+    }
+
+    nav #eshop a {
+        background-image: none;
+    }
+
+    nav #kontakty a {
+        background-image: none;
+    }
+
+    #bocni {
+        display: none;
+
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    nav {
+        width: 50%;
+        margin-left: 20px;
+
+        ul li {
+            display: inline-block;
+
+            a {
+                font-size: 1em;
+                padding: 10px;
+
+            }
+        }
+    }
+
+    #logo {
+        transform: scale(120%);
+    }
+
+    #slide {
+        width: 65%;
+    }
+
+    h1 {
+        margin-top: 200px;
+    }
+
+    h2 {
+        margin-top: 200px;
+    }
+
+    #uvod {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #newsletter {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        border-bottom: none;
+        background-size: 5%;
+        text-align: center;
+
+
+        p {
+            font-size: 1rem;
+            width: 39%;
+            line-height: 20px;
+        }
+
+    }
+
+    #submit {
+        margin-top: 10px;
+    }
+
+
+    #formular {
+        border-top: 3px dashed #E5E5E5;
+        border-bottom: 3px dashed #E5E5E5;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #blog article {
+        width: 50%;
+    }
+
+    #blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .article_text {
+        font-size: 1rem;
+    }
+
+    #paticka {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+
+        p {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #content #headline {
+        font-size: 2rem;
+    !important;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+
 }
 
 /* Telefony (mobilní zařízení) */
@@ -99,9 +258,7 @@
 
     #slide {
         margin-top: 80px;
-        display: flex;
         width: 80%;
-    !important;
 
         h1 {
             margin-top: 90px;
